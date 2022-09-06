@@ -1,0 +1,47 @@
+$background-primary-color: #ddd;
+$background-white-color: #aaa;
+$text-color: #000;
+.dashboard-layout {
+    background-color: #FAFAFA;
+    .default-bg-color {
+        background-color: $background-white-color;
+    }
+    .default-text-color {
+        color: $text-color;
+    }
+    .statistics-dashboard {
+        display: -webkit-box; /* Not needed if autoprefixing */
+        display: -ms-flexbox; /* Not needed if autoprefixing */
+        display: flex;
+        margin-left: -30px; /* gutter size offset */
+        width: auto;
+        .statistics-dashboard-grid-column {
+            padding-left: 30px; /* gutter size */
+            background-clip: padding-box;
+            >div {
+                margin-bottom: 30px;
+                .info-card {
+                    background-color: $background-primary-color;
+                    color: $text-color;
+                    .negative-numbers {
+                        color: red;
+                    }
+                    .half-curve-value{
+                        margin-top: -30px;
+                    }
+                    .download-graph-icon{
+                        min-width: 0;
+                        margin-right: -10px;
+                    }
+                }
+            }
+        }
+      }
+      .dashboard-filter-wrapper {
+          .search-filter-textbox-wrapper{
+              .search-filter-textbox{
+                  text-align: left;
+              }
+          }
+      }
+}
