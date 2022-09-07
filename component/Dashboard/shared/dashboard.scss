@@ -1,6 +1,9 @@
 $background-primary-color: #ddd;
 $background-white-color: #aaa;
 $text-color: #000;
+*{
+    color:blue;
+}
 .dashboard-layout {
     background-color: #FAFAFA;
     .default-bg-color {
@@ -26,9 +29,9 @@ $text-color: #000;
                     .negative-numbers {
                         color: red;
                     }
-                    .half-curve-value{
-                        margin-top: -30px;
-                    }
+                    // .half-curve-value{
+                    //     margin-top: -30px;
+                    // }
                     .download-graph-icon{
                         min-width: 0;
                         margin-right: -10px;
@@ -43,5 +46,12 @@ $text-color: #000;
                   text-align: left;
               }
           }
+      }
+
+      .MuiTypography-body1{
+        padding: 15px;
+      }
+      .MuiTypography-caption{
+        padding: 5px;
       }
 }

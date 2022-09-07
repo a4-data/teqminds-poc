@@ -24,7 +24,7 @@ export const Dashboard = () => {
   return (
     <React.Fragment>
       <Paper
-        className="search-wraper"
+        className="dashboard-layout search-wraper"
         elevation={0}
       >
         <Box className="dashboard-layout">
