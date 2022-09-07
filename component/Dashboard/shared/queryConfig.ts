@@ -248,8 +248,7 @@ export const balanceSheet = [
       { label: "Total Assets", value: "3.227M", isBold: true },
       { label: "Current Liabilities", value: "1.4177M", isBold: false },
       { label: "Long Term Liabilities", value: "4.7517M", isBold: false },
-      { label: "Equity", value: "426M", isBold: false },
-      { label: "Total Liabilities and Equity", value: "6.597M", isBold: true },
+      { label: "Equity", value: "426M", isBold: false }
     ],
     operation: "sum",
     title: "Balance Sheet",

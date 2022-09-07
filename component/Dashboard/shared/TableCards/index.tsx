@@ -16,7 +16,7 @@ export const TableCards = (props: any) => {
             {props?.config?.title}
           </Typography>
 
-          <Grid container>
+          <Grid container style={{padding:"20px !important"}}>
             {props?.config?.tableData.map((item: any, index: number) => {
               return (
                 <React.Fragment key={`element-wrapper-${index}`}>

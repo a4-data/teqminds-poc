@@ -24,6 +24,7 @@ $text-color: #000;
                 .info-card {
                     background-color: $background-primary-color;
                     color: $text-color;
+                    padding: 20px;
                     .negative-numbers {
                         color: red;
                     }
@@ -47,9 +48,38 @@ $text-color: #000;
       }
 
       .MuiTypography-body1{
-        padding: 15px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .text-body2{
+        display: flex;
+        padding: 5px;
+        margin-top: -10px;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 16px;
       }
       .MuiTypography-caption{
-        padding: 5px;
+        font-size: 1rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1.66;
+        letter-spacing: 0.03333em;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
       }
+      .MuiTypography-h6 {
+        font-size: 1.25rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 500;
+        line-height: 1.6;
+        letter-spacing: 0.0075em;
+        display: flex;
+        justify-content: center;
+        margin-top: -67px;
+    }
 }

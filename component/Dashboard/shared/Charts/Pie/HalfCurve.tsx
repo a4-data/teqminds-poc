@@ -42,7 +42,7 @@ export const ReportsHalfPieChart = (props: any) => {
           <Typography variant="body1">
             PY 61.2
           </Typography>
-          <Typography variant="body1">Target 59.0%</Typography>
+          <Typography variant="body2" className="text-body2">Target 59.0%</Typography>
         </Box>
       </Card>
     </React.Fragment>
